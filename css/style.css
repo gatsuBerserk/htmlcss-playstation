@@ -12,12 +12,14 @@
     background-color: magenta;
 }
 
-.my-bg-color-jumbo{
-    background-color: tomato;
+.my-img-jumbo{
+    background-image: url(../img/jumbo-bg.png); 
+    background-position: center;  
+    background-size: cover;
 }
 
 .my-jumbo{
-    height: 500px;
+    height: 900px;
 } 
 
 .my-size-col{
