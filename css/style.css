@@ -14,8 +14,13 @@
 
 .my-jumbo{
     height: 500px;
-}
+} 
 
+.my-size{
+    /* width: 100px; */
+    height: 100px; 
+    border: 1px solid black;
+}
 
 
 /* / Tools */
