@@ -1,0 +1,28 @@
+
+/* Tools per struttura */ 
+.my-bg-color-y{
+    background-color: yellow;
+}
+
+.my-nav-struct{
+    height: 50px;
+} 
+
+.my-bg-color-jumbo{
+    background-color: tomato;
+}
+
+.my-jumbo{
+    height: 500px;
+}
+
+
+
+/* / Tools */
+
+.my-bg-black{
+    background-color: black;
+} 
+.my-brand{
+    height: 40px;
+}
