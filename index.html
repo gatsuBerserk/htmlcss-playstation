@@ -19,17 +19,71 @@
 <body>
     <header> 
         <!-- Brand -->
-        <div class="container-fluid my-brand text-white text-end my-bg-black">
-            prova
+        <div class="container-fluid my-brand text-white text-uppercase d-flex align-items-end justify-content-end my-bg-black">
+            <h3>Sony</h3>
         </div> 
          <!--/Brand  --> 
 
          <!-- Navbar --> 
-        <div class="container-fluid my-bg-color-y my-nav-struct"> 
-            <!-- deve rimanere aperta solo in xxl per il resto deeve condensarsi -->
-            <div class="row">  
-                <nav> Nav</nav>
-            </div>
+        <div class="container-fluid my-bg-color-silver"> 
+            <nav class="navbar navbar-expand-lg navbar-light bg-light">
+                <div class="container-fluid">
+                  <a class="navbar-brand" href="#">
+                    <img src="img/play_logo.svg" alt="" width="30" height="24">
+                  </a> 
+
+                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                  </button>
+                  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Giochi
+                            </a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Hardware
+                            </a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Servizi
+                            </a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Novità
+                            </a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Fai aquisti
+                            </a>
+                          </li>
+                          <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                              Supporto
+                            </a>
+                          </li>
+                    </ul>
+                    <form class="d-flex align-items-center">
+                        <a class="text-decoration-none me-3 dropdown-toggle text-dark" href="#" id="Dropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            My PlayStation
+                        </a>
+                        <button class="btn btn-dark rounded-pill" type="submit">
+                        Accedi
+                        </button>  
+                        <a class="m-3 text-dark" href="#"> 
+                            <i class="fas fa-search fs-3"></i>
+                        </a>
+                        
+                    </form>
+                  </div>
+                </div>
+              </nav>
+            
         </div>
 
          <!-- /Navbar -->

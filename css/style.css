@@ -36,14 +36,24 @@
     border: 1px solid black;
 }
 
+/* / Tools */ 
 
+.my-bg-color-silver{
+    background-color: rgb(248, 249, 250);
+}
 
+header nav a.navbar-brand img{
+    height: 60px; 
+    width: 80px;
+}
 
-/* / Tools */
+header{
+    font-family:Helvetica, Arial,  sans-serif;
+}
 
 .my-bg-black{
     background-color: black;
 } 
 .my-brand{
-    height: 40px;
+    height: 50px;
 }
