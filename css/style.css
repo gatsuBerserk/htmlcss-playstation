@@ -43,10 +43,20 @@
 } 
 .my-color-blu{
     color: blue;
+} 
+.my-color-black{
+    color: black;
 }
 
 .my-bg-color-silver{
     background-color: rgb(190, 188, 187);
+}
+.my-bg-color-buttom{
+    background-color: rgb(217, 218, 220);
+} 
+
+.my-bg-color-blu{
+    background-color: rgb(22, 28, 59);
 }
 .my-img{
     /* width: 100%;  */
@@ -94,13 +104,11 @@ main{
     height: 50%;
 } 
 
-.my-bg-color-buttom{
-    background-color: rgb(217, 218, 220);
-} 
+
 
 .my-btn{
-    color: blue;
-    border-color:rgb(217, 218, 220) ;
+    border-color:rgb(217, 218, 220); 
+    border: transparent;
 }
 
 
