@@ -1,25 +1,13 @@
 
 /* Tools per struttura */ 
-.my-bg-color-y{
-    background-color: yellow;
-}
 
 .my-nav-struct{
     height: 50px;
 } 
 
-
-
-
-
-
-
-
 .my-size-cont{
     height: 250px;
 } 
-
-
 
 .sony{
     width: 100px;
@@ -30,7 +18,7 @@
 } 
 .my-color-red{
     color: red;
-}
+} 
 
 /* / Tools */ 
 
@@ -78,6 +66,9 @@ main{
     background-color: rgb(0, 67, 156);
 }
 
+.my-mt{
+    margin-top: 130px;
+}
 .my-jumbo{
     height: 900px;
 } 

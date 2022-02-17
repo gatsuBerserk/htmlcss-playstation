@@ -17,7 +17,7 @@
     <title>Playstation Carmine Passante classe 55</title>
 </head>
 <body>
-    <header> 
+    <header class="fixed-top">   
         <!-- Brand --> 
         <section id="brand">
             <div class="container-fluid my-brand  d-flex align-items-end justify-content-end my-bg-black">
@@ -30,9 +30,8 @@
 
          <!-- Navbar --> 
         <section id="navbar"> 
-            <div class="container-fluid my-bg-color-silver"> 
-                <nav class="navbar navbar-expand-lg navbar-light bg-light">
-                    <div class="container-fluid">
+            <nav class="navbar navbar-expand-lg navbar-light bg-light navbar-fixed-top">
+                <div class="container-fluid">
                     <a class="navbar-brand" href="#">
                         <img src="img/play_logo.svg" alt="" width="30" height="24">
                     </a> 
@@ -44,32 +43,32 @@
                         <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Giochi
+                                    Giochi
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Hardware
+                                    Hardware
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Servizi
+                                    Servizi
+                                </a>
+                            </li>
+                                <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                    Novità
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Novità
+                                    Fai aquisti
                                 </a>
                             </li>
                             <li class="nav-item dropdown">
                                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Fai aquisti
-                                </a>
-                            </li>
-                            <li class="nav-item dropdown">
-                                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                                Supporto
+                                    Supporto
                                 </a>
                             </li>
                         </ul>
@@ -78,23 +77,25 @@
                                 My PlayStation
                             </a>
                             <button class="btn btn-dark rounded-pill" type="submit">
-                            Accedi
+                                Accedi
                             </button>  
                             <a class="m-3 text-dark" href="#"> 
                                 <i class="fas fa-search fs-3"></i>
                             </a>
-                            
                         </form>
                     </div>
-                    </div>
-                </nav>
-            </div>
-        </section>
+                </div>
+            </nav> 
          <!-- /Navbar -->
+        </section>
+        
+    </header> 
 
+    <!-- Main --> 
+    <main>
         <!-- Jumbo --> 
         <section id="jumbo">
-            <div class="container-fluid my-img-jumbo my-jumbo ps-5 d-flex align-items-end text-white "> 
+            <div class="container-fluid my-img-jumbo my-jumbo my-mt ps-5 d-flex align-items-end text-white  "> 
                 <div class="col-12 col-md-6 col-xxl-3 mb-5 ">
                     <figure>
                         <img class="img-fluid" src="img/returnal-hero-banner-logo.png" alt="">
@@ -112,44 +113,40 @@
             </div>
         </section> 
         <!-- /Jumbo -->
-    </header> 
-
-    <!-- Main --> 
-    <main>
         <!-- Card -->
         <section class="card"> 
             <div class="container-fluid ">
                 <div class="row p-4"> 
-                        <div class="col-6 col-md-4 col-xxl-2"> 
-                            <figure class="card-game">
-                                <img class="my-img rounded-3 img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
-                            </figure>
-                        </div> 
-                        <div class="col-6 col-md-4 col-xxl-2"> 
-                            <figure class="card-game">
-                                <img class="my-img rounded-3 img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
-                            </figure>
-                        </div> 
-                        <div class="col-6 col-md-4 col-xxl-2"> 
-                            <figure class="card-game">
-                                <img class="my-img rounded-3 img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
-                            </figure>
-                        </div> 
-                        <div class="col-6 col-md-4 col-xxl-2"> 
-                            <figure class="card-game">
-                                <img class="my-img rounded-3 img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="and">
-                            </figure>
-                        </div> 
-                        <div class="col-6 col-md-4 col-xxl-2"> 
-                            <figure class="card-game">
-                                <img class="my-img rounded-3 img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
-                            </figure>
-                        </div> 
-                        <div class="col-6 col-md-4 col-xxl-2"> 
-                            <figure class="card-game">
-                                <img class="my-img rounded-3 img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Clank">
-                            </figure>
-                        </div> 
+                    <div class="col-6 col-md-4 col-xxl-2"> 
+                        <figure class="card-game">
+                            <img class="my-img rounded-3 img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                        </figure>
+                    </div> 
+                    <div class="col-6 col-md-4 col-xxl-2"> 
+                        <figure class="card-game">
+                            <img class="my-img rounded-3 img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Ratchet">
+                        </figure>
+                    </div> 
+                    <div class="col-6 col-md-4 col-xxl-2"> 
+                        <figure class="card-game">
+                            <img class="my-img rounded-3 img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                        </figure>
+                    </div> 
+                    <div class="col-6 col-md-4 col-xxl-2"> 
+                        <figure class="card-game">
+                            <img class="my-img rounded-3 img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="and">
+                        </figure>
+                    </div> 
+                    <div class="col-6 col-md-4 col-xxl-2"> 
+                        <figure class="card-game">
+                            <img class="my-img rounded-3 img-fluid" src="img/returnal-listing-thumb-01-ps5.jpg" alt="Returnal">
+                        </figure>
+                    </div> 
+                    <div class="col-6 col-md-4 col-xxl-2"> 
+                        <figure class="card-game">
+                            <img class="my-img rounded-3 img-fluid" src="img/ratchet-and-clank-rift-apart-keyart.jpg" alt="Clank">
+                        </figure>
+                    </div> 
 
                 </div>
             </div>
@@ -176,7 +173,7 @@
                     </div> 
                     <div class="col-12 col-md-8 text-center "> 
                         <figure>
-                            <img class="img-fluid" src="img/playstation-5-thumb.png" alt="">
+                            <img class="img-fluid" src="img/playstation-5-thumb.png" alt="PS5">
                         </figure>
                     </div>
                 </div>
@@ -189,31 +186,31 @@
                         <div class="col-4 col-md-2 rounded-3">
                             <figure class="accessories">
                                 <img class="my-img rounded-3 img-fluid" src="img/playstation-5-thumb.png" alt="Console">
-                                <p class="d-sm-none d-md-block ">Console PS5</p>
+                                <p class="d-none d-md-block ">Console PS5</p>
                             </figure> 
                         </div>
                         <div class="col-4 col-md-2 rounded-3">
                             <figure class="accessories">
                                 <img class="my-img rounded-3 img-fluid" src="img/joypad-thumb.png" alt="Pad">
-                                <p class="d-sm-none d-md-block " >Controller Wireless DualSence&trade;</p>
+                                <p class="d-none d-md-block " >Controller Wireless DualSence&trade;</p>
                             </figure>
                         </div>
                         <div class="col-4 col-md-2 rounded-3">
                             <figure class="accessories">
                                 <img class="my-img rounded-3 img-fluid" src="img/headset-thumb.png" alt="Headset">
-                                <p class="d-sm-none d-md-block ">Cuffie Wireless con Microfono <span class="text-uppercase"> Pulse 3&trade;</span></p>
+                                <p class="d-none d-md-block ">Cuffie Wireless con Microfono <span class="text-uppercase"> Pulse 3&trade;</span></p>
                             </figure>
                         </div>
                         <div class="col-4 col-md-2 rounded-3">
                             <figure class="accessories">
                                 <img class="my-img rounded-3 img-fluid" src="img/remote-thumb.png" alt="Thumb">
-                                <p class="d-sm-none d-md-block ">Telecomando Media</p>
+                                <p class="d-none d-md-block ">Telecomando Media</p>
                             </figure>
                         </div>
                         <div class="col-4 col-md-2 rounded-3">
                             <figure class="accessories">
                                 <img class="my-img rounded-3 img-fluid camera" src="img/camera-thumb.jpg" alt="Camera">
-                                <p class="d-sm-none d-md-block">Telecamera <span class="text-uppercase">hd</span></p>
+                                <p class="d-none d-md-block">Telecamera <span class="text-uppercase">hd</span></p>
                             </figure>
                         </div>
                     </div>
@@ -325,7 +322,9 @@
                             <img class="my-img rounded-3 img-fluid" src="img/crash-bandicoot-4-its-about-time-store-art.jpg" alt="Ratchet">
                             <p>Crash bandicoot 4: it's about time </p>
                         </figure>
-                    </div>   
+                    </div>
+                </div> 
+            </div>  
         </section> 
         <!-- / New releases -->
 
@@ -396,7 +395,7 @@
         <!-- Playstation 4 --> 
 
         <!-- PlayPlus--> 
-            <section id="play-plus ">
+            <section id="play-plus">
                 <div class="conteiner-fluid my-bg-color-silver px-5">
                     <div class="row align-items-center">
                         <div class="col-12 col-md-12 col-lg-6 my-5">
@@ -500,6 +499,7 @@
                                 <img class="img-fluid" src="img/youtube.png" alt="Youtube">
                             </figure>
                         </div>
+                    </div>
                 </div>
             </section>
         <!-- /Social -->
